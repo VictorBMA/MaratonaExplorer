@@ -1,117 +1,117 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+
+}
+html{
+  /* variaveis*/
+  --bg-color: #edf2ff;
+  --text-color: #00082f;
+  --primary-color-dark: #364fc7 ;
+  --primary-color:#4263eb ;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+body.darkblue{
+  --bg-color: #00082f ;
+  --text-color:#edf2ff;
   
+
+}
+body.pink{
+  --bg-color: #fff0f6;
+  --text-color: #1f000b;
+  --primary-color: #d6336c ;
+  --primary-color-dark: #a61e4d ;
+  
+}
+
+
+
+body{
+  background: var(--bg-color) ;
+  color: var(--text-color)
+  
+}
+
+.container {
+  
+  text-align: center;
+  width: 300px;
+  margin: 0px auto;
+}
+
+img.AvatardoVictor{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3,7px;
+  border: var(--primary-color);
+
+}
+
+h1{
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 8px; 
+  font-family: 'Roboto', monospace;
+}
+
+.username{
+  font-family: 'Roboto', monospace;
+  opacity: 0,8;
+  font-size: 18px;
+  font-weight: 400px;
+  
+}  
+
+ul{
+  list-style: none;
+  margin: 48px 0;   
+}
+
+
+ul li a{
+  height: 53px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background:var(--primary-color);
+  color: var(--text-color);
+  text-transform: uppercase;
+  opacity: 0,8;
+  font-size: 14px; 
+  margin-bottom: 16px;
+  border-radius: 6px;
+  transition: background 400ms;
+
+
   }
-  html{
-    /* variaveis*/
-    --bg-color: #edf2ff;
-    --text-color: #00082f;
-    --primary-color-dark: #364fc7 ;
-    --primary-color:#4263eb ;
-  
+
+  ul li a:hover{
+    background: var(--primary-color-dark)
   }
-  
-  a{
-    text-decoration: none;
-  }
-  
-  body.darkblue{
-    --bg-color: #00082f ;
-    --text-color:#edf2ff;
+
+  footer{
+    font-weight: 500;
+    font-size: 12px;
+    color:#ca32b1;
+    opacity: 06;
+    transition: 1s;
     
-  
-  }
-  body.pink{
-    --bg-color: #fff0f6;
-    --text-color: #1f000b;
-    --primary-color: #d6336c ;
-    --primary-color-dark: #a61e4d ;
     
-  }
-  
-  
-  
-  body{
-    background: var(--bg-color) ;
-    color: var(--text-color)
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .container {
-    
-    text-align: center;
-    width: 300px;
-    margin: 0px auto;
-  }
-  
-  img.AvatardoVictor{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 3,7px;
-    border: var(--primary-color);
-  
-  }
-  
-  h1{
-    font-size: 32px;
-    margin-top: 24px;
-    margin-bottom: 8px; 
-    font-family: 'Roboto', monospace;
-  }
-  
-  .username{
-    font-family: 'Roboto', monospace;
-    opacity: 0,8;
-    font-size: 18px;
-    font-weight: 400px;
-    
-  }  
-  
-  ul{
-    list-style: none;
-    margin: 48px 0;   
-  }
-  
-  
-  ul li a{
-    height: 53px;
-      display: flex;
-    align-items: center;
-    justify-content: center;
-    background:var(--primary-color);
-    color: var(--text-color);
-    text-transform: uppercase;
-    opacity: 0,8;
-    font-size: 14px; 
-    margin-bottom: 16px;
-    border-radius: 6px;
-    transition: background 400ms;
-  
-  
     }
-  
-    ul li a:hover{
-      background: var(--primary-color-dark)
-    }
-  
-    footer{
-      font-weight: 500;
-      font-size: 12px;
-      color:#ca32b1;
-      opacity: 06;
-      transition: 1s;
-      
-      
-      }
-    footer:hover{
-      opacity: 1,0;
-      color:#141414;
-    }
-  
-  footer a:hover{
-    color: var(--text-color);
+  footer:hover{
+    opacity: 1,0;
     color:#141414;
-    }
+  }
+
+footer a:hover{
+  color: var(--text-color);
+  color:#141414;
+  }
